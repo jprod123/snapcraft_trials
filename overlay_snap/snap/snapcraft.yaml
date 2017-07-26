@@ -1,0 +1,13 @@
+name: turtle-snap
+version: '0.1' 
+summary: Snap containing the turtlesim package
+description: |
+  Snap containing the turtlesim package
+
+confinement: classic
+
+parts:
+  turtlesim:
+    plugin: catkin
+    rosdistro: kinetic
+    catkin-packages: [turtlesim]
